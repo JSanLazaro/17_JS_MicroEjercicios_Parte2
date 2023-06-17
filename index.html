@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    
+</head>
+<body>
+<form action="" name="licenseForm">
+    <div>
+        <label for="wr_name">Introduce tu nombre</label>
+        <input type="text" name="wrName" id="licenseForm__name">
+    </div>
+    <div>
+        <label for="wr_age">Introduce tu Edad</label>
+        <input type="number" name="wrAge" id="licenseForm__age">
+    </div>
+    <!-- <button onclick="printName()">enviar</button>     -->
+</form>   
+<form action="" name="dniForm">
+    <div>
+        <label for="wrDniNumber">Cual es tu numero de DNI</label>
+        <input type="number" name="wrDniNumber" id="dniForm__number">
+    </div>
+    <div class="letter" id="dni_letter">
+        <h1 id="dni_letter__caption"></h1>
+    </div>
+</form> 
+<script src="./js/age.js"></script>
+<script src="./js/dni.js"></script>
+</body>
+</html>
